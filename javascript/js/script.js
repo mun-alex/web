@@ -33,4 +33,6 @@ function task2() {
 	}
 }
 
+function task3() {
+}
 task2();
