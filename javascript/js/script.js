@@ -34,5 +34,6 @@ function task2() {
 }
 
 function task3() {
+	alert('Hello');
 }
 task2();
