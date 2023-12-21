@@ -1,0 +1,31 @@
+.block {
+	background-color: brown;
+	width: 500px;
+	display: flex;
+	height: 800px;
+	flex-wrap: wrap;
+}
+
+.block_element {
+	display: flex;
+	background-color: green;
+	width: 10%;
+	height: 100px;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_element span {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-color: turquoise;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+.block_element_4 span {
+	align-self: start;
+}
