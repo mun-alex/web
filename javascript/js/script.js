@@ -36,4 +36,39 @@ function task2() {
 function task3() {
 	alert('Hello');
 }
-task2();
+
+let array = [2, 3, 4, 7];
+let array1 = new Array();
+
+console.log(array[1]);
+
+let months = ['January', 'February'];
+months.push('March');
+console.log(months);
+
+months.unshift('December');
+console.log(months);
+
+months.pop();
+console.log(months);
+
+months.shift();
+console.log(months);
+
+console.log(months.indexOf('February'));
+console.log(months.includes('February'));
+
+let friends = ['Abylay', 'Dina', 'Arman'];
+
+let person = {
+	name: 'Almaz',
+	age: 20,
+	address: 'Almaty, Abay str.',
+	friends: friends
+}
+
+console.log(person.name);
+console.log(person.friends);
+
+months.push(person);
+console.log(months);
