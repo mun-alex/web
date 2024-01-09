@@ -72,3 +72,21 @@ console.log(person.friends);
 
 months.push(person);
 console.log(months);
+
+function loop_task_1() {
+	let n = parseInt(prompt('введите размер массива'));
+	let numArray = [];
+
+	for (let i = 0; i < n; i++) {
+		let num = parseInt(prompt('введите число'));
+		numArray.push(num);
+	}
+
+	console.log(numArray);
+
+	for (let i = n-1; i >= 0; i--) {
+		console.log(numArray[i]);
+	}
+}
+
+loop_task_1();
