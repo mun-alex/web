@@ -1,0 +1,27 @@
+.d-flex {
+	display: flex;
+}
+
+.d-block {
+	display: block;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.ml-20 {
+	margin-left: 20px;
+}
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+.sign_in {
+	border: 2px solid black;
+}
+
+.padding-10 {
+	padding: 10px;
+}

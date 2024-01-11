@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href=css/main.css>
+	<script src="js/script.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div id="main" class="main d-flex">
+		<div id='selectors' class="selectors">
+			<input id=1 type="text" class="selector d-block ml-20 mb-20">
+			<input id=2 name="login" type="text" class="selector d-block ml-20 mb-20">
+			<input id=3 type="text" class="selector d-block ml-20 mb-20">
+			<input id=4 type="text" class="selector d-block ml-20 mb-20">
+			<input id=5 type="text" class="selector d-block ml-20 mb-20">
+			<input id=6 name="login" type="text" class="selector d-block ml-20 mb-20">
+			<input id=7 type="text" class="selector d-block ml-20 mb-20">
+			<input id=8 name="login" type="text" class="selector d-block ml-20 mb-20">
+			<input id=9 type="text" class="selector d-block ml-20 mb-20">
+			<input id=10 type="text" class="selector d-block ml-20 mb-20">
+		</div>
+
+		<div id="buttons" class="buttons">
+			<button class="d-block ml-20 mb-20" onclick="querySel()">querySelector</button>
+			<button class="d-block ml-20 mb-20" onclick="querySelAll()">querySelAll</button>
+			<button class="d-block ml-20 mb-20" onclick="getById()">getById</button>
+			<button class="d-block ml-20 mb-20" onclick="getByName()">getByName</button>
+			<button class="d-block ml-20 mb-20" onclick="getByTag()">getByTag</button>
+			<button class="d-block ml-20 mb-20" onclick="addButton()">addButton</button>
+			<button class="d-block ml-20 mb-20" onclick="removeElement()">removeInputs</button>
+		</div>
+	</div>
+	<div class='sign_in mt-100 padding-10'>
+		<form action="">
+			LOGIN: <input id="login" type="text" class="d-block ml-20 mb-20">
+			PASSWORD: <input id="password" type="password" class="d-block ml-20 mb-20">
+
+			<a href="#" class="d-block ml-20 mb-20" onclick="signIn()">sign in</a>
+		</form>
+	</div>
+</body>
+</html>
