@@ -1,0 +1,60 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-block {
+	display: block;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.p-10 {
+	padding: 10px;
+}
+
+.text-align {
+	text-align: center;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.jc-sbetween {
+	justify-content: space-between;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.navigation {
+	margin: 0;
+	background-color: grey;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.navigation p {
+	color: white;
+}
+
+.book {
+	width: 240px;
+	border: 1px solid grey;
+}
+
+.book img {
+	width: = 100%;
+}
